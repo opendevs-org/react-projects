@@ -6,7 +6,7 @@
 
 - [Employee Management System - React Basics Project](https://www.youtube.com/watch?v=koXRuZKsCJw&t=1s)
 
-- [E-Commerce Webapp - React Intermediate Project](https://www.youtube.com/channel/UCOr2tU9paYaosUIz0IH7MHg)
+- [E-Commerce Webapp - React Intermediate Project](https://youtu.be/x6vlHU-Gc40)
 
 ## ✨ Show your support
 
