@@ -1,0 +1,70 @@
+.product .grid {
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+}
+
+.product-image {
+    width: auto;
+    height: auto;
+}
+
+.details {
+    background-color: #fff;
+    box-shadow: rgb(228, 228, 230) 0px 10px 10px -5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.description {
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.related .grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    justify-self: center;
+}
+
+.card .grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    grid-template-rows: 200px 50px 30px;
+    text-overflow: ellipsis;
+}
+
+.description::first-letter {
+    text-transform: capitalize;
+}
+
+@media (max-width: 700px) {
+    .related .grid {
+        grid-template-columns: repeat(2, 1fr);
+        background-color: transparent;
+    }
+
+    .card .grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 660px) {
+    .product .grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .related .grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
