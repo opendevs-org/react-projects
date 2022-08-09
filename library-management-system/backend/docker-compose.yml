@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  lms-mongo:
+    image: "mongo"
+    environment:
+      - MONGO_INITDB_DATABASE=lms
+      - MONGO_INITDB_ROOT_USERNAME=root_local
+      - MONGO_INITDB_ROOT_PASSWORD=root_password
+    container_name: lms-mongo
+    expose:
+      - "27017"
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./volumes/mongo/data:/var/lib/mongo/data/ # persist data even if container shuts down

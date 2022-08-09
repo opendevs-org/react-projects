@@ -8,6 +8,8 @@
 
 - [E-Commerce Webapp - React Intermediate Project](https://youtu.be/x6vlHU-Gc40)
 
+- [Library Management System - React Final Project](https://youtu.be/G52wohlgdxY)
+
 ## ✨ Show your support
 
 Give a ⭐️ if these projects helped you!

@@ -1,0 +1,22 @@
+.wrapper {
+    max-width: 600;
+    margin: 25px auto 0;
+    padding: 2em;
+}
+
+.mb2 {
+    margin-bottom: 2em !important;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+.pageHeader {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 1em;
+    margin-bottom: 1.5em;
+}
