@@ -60,6 +60,11 @@ export const BooksList = () => {
         <>
             <div className={`${classes.pageHeader} ${classes.mb2}`}>
                 <Typography variant="h5">Book List</Typography>
+                {isAdmin && (
+                    <Button variant="contained" color="primary" component={RouterLink} to="/admin/books/add">
+                        Add Book
+                    </Button>
+                )}
             </div>
             {books.length > 0 ? (
                 <>
