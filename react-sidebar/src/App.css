@@ -1,0 +1,75 @@
+.App {
+  display: flex;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background: linear-gradient(179deg, #176eb5, #d545d7);
+  text-shadow: 1px 0px 2px #8dc4f0;
+}
+
+.body_container {
+  flex: 1;
+}
+
+.sidebar_container {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidebar {
+  display: flex;
+  width: 14rem;
+  height: 90%;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.menu_icon {
+  display: flex;
+  align-self: flex-end;
+  border-radius: 5px;
+}
+
+.profile {
+  display: flex;
+  width: 4rem;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.profile > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 10px 0px 10px 0px;
+}
