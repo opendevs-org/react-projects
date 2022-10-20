@@ -1,6 +1,6 @@
 # React Projects
 
-> this repo contains all the react projects made as a part of React series live on [YouTube](https://www.youtube.com/channel/UCOr2tU9paYaosUIz0IH7MHg) & [dev11.in](https://dev11.in/)
+> this repo contains all the react projects made as a part of React series live on [YouTube](https://www.youtube.com/channel/UCOr2tU9paYaosUIz0IH7MHg) & [opendevs.in](https://opendevs.in/)
 
 ## 🚀 Project List
 
@@ -9,6 +9,8 @@
 - [E-Commerce Webapp - React Intermediate Project](https://youtu.be/x6vlHU-Gc40)
 
 - [Library Management System - React Final Project](https://youtu.be/G52wohlgdxY)
+
+- React Sidebar (Contributed by: [Ankit Kanyal](https://www.linkedin.com/in/ankit-kanyal-43460b169))
 
 ## ✨ Show your support
 
