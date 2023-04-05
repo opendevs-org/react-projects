@@ -10,6 +10,8 @@
 
 - [Library Management System - React Final Project](https://youtu.be/G52wohlgdxY)
 
+- [Build a Crypto Dashboard using React Redux TypeScript - Webinar](https://youtu.be/oU97KvXFqvo)
+
 - React Sidebar (Contributed by: [Ankit Kanyal](https://www.linkedin.com/in/ankit-kanyal-43460b169))
 
 ## ✨ Show your support
