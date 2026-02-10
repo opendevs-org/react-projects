@@ -13,7 +13,7 @@
     "express": "~4.16.1",
     "express-session": "^1.17.3",
     "mongodb": "^4.8.1",
-    "mongoose": "^6.5.0",
+    "mongoose": "^6.13.6",
     "morgan": "~1.9.1"
   },
   "devDependencies": {
